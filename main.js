@@ -18,3 +18,13 @@ const age = Number(prompt("Quanti anni hai?"));
 
 console.log(numbKm, age);
 //calcolare il prezzo totale del viaggio
+const priceJourney = numbKm * 0.21;
+
+//calcora gli sconti
+const scontoUnder = (priceJourney * 20) / 100;
+
+const scontoOver = (priceJourney * 40) / 100;
+
+const priceUnder = priceJourney - scontoUnder;
+
+const priceOver = priceJourney - scontoOver;
