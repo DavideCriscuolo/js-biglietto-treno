@@ -16,7 +16,6 @@ const numbKm = Number(prompt("Quanti km vuoi percorrere?"));
 // chiedere l'età del passeggero
 const age = Number(prompt("Quanti anni hai?"));
 
-console.log(numbKm, age);
 //calcolare il prezzo totale del viaggio
 const priceJourney = numbKm * 0.21;
 
