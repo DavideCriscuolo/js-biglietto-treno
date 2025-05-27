@@ -30,9 +30,9 @@ const priceOver = priceJourney - scontoOver;
 
 //condizioni in base all'età
 
-if (age < 18 || age === 18) {
+if (age <= 18) {
   console.log("prezzo totale del viaggio è di €", priceUnder.toFixed(2));
-} else if (age > 65 || age === 65) {
+} else if (age >= 65) {
   console.log("prezzo totale del viaggio è di €", priceOver.toFixed(2));
 } else {
   console.log(
